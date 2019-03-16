@@ -1,0 +1,93 @@
+{
+  "contractName": "Callee",
+  "abi": [
+    {
+      "outputs": [],
+      "inputs": [],
+      "constant": false,
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "name": "setWriter",
+      "outputs": [],
+      "inputs": [
+        {
+          "type": "address",
+          "name": "_writer"
+        }
+      ],
+      "constant": false,
+      "payable": false,
+      "type": "function",
+      "gas": 35627
+    },
+    {
+      "name": "getBytes",
+      "outputs": [
+        {
+          "type": "bytes32",
+          "name": "out"
+        }
+      ],
+      "inputs": [
+        {
+          "type": "bytes32",
+          "name": "key"
+        }
+      ],
+      "constant": false,
+      "payable": false,
+      "type": "function",
+      "gas": 939
+    },
+    {
+      "name": "setBytes",
+      "outputs": [],
+      "inputs": [
+        {
+          "type": "bytes32",
+          "name": "key"
+        },
+        {
+          "type": "bytes32",
+          "name": "value"
+        }
+      ],
+      "constant": false,
+      "payable": false,
+      "type": "function",
+      "gas": 35769
+    },
+    {
+      "name": "owner",
+      "outputs": [
+        {
+          "type": "address",
+          "name": "out"
+        }
+      ],
+      "inputs": [],
+      "constant": true,
+      "payable": false,
+      "type": "function",
+      "gas": 573
+    },
+    {
+      "name": "writer",
+      "outputs": [
+        {
+          "type": "address",
+          "name": "out"
+        }
+      ],
+      "inputs": [],
+      "constant": true,
+      "payable": false,
+      "type": "function",
+      "gas": 603
+    }
+  ],
+  "bytecode": "0x600035601c52740100000000000000000000000000000000000000006020526f7fffffffffffffffffffffffffffffff6040527fffffffffffffffffffffffffffffffff8000000000000000000000000000000060605274012a05f1fffffffffffffffffffffffffdabf41c006080527ffffffffffffffffffffffffed5fa0e000000000000000000000000000000000060a052341561009e57600080fd5b3360015561026856600035601c52740100000000000000000000000000000000000000006020526f7fffffffffffffffffffffffffffffff6040527fffffffffffffffffffffffffffffffff8000000000000000000000000000000060605274012a05f1fffffffffffffffffffffffffdabf41c006080527ffffffffffffffffffffffffed5fa0e000000000000000000000000000000000060a0526339e2052360005114156100dd57602060046101403734156100b457600080fd5b60043560205181106100c557600080fd5b5033600154146100d457600080fd5b61014051600255005b63c031a180600051141561012857602060046101403734156100fe57600080fd5b600254331461010c57600080fd5b60006101405160e05260c052604060c0205460005260206000f3005b63d5d2c560600051141561016f576040600461014037341561014957600080fd5b600254331461015757600080fd5b6101605160006101405160e05260c052604060c02055005b638da5cb5b600051141561019557341561018857600080fd5b60015460005260206000f3005b63453a2abc60005114156101bb5734156101ae57600080fd5b60025460005260206000f3005b60006000fd5b6100a7610268036100a76000396100a7610268036000f3",
+  "deployedBytecode": "0x600035601c52740100000000000000000000000000000000000000006020526f7fffffffffffffffffffffffffffffff6040527fffffffffffffffffffffffffffffffff8000000000000000000000000000000060605274012a05f1fffffffffffffffffffffffffdabf41c006080527ffffffffffffffffffffffffed5fa0e000000000000000000000000000000000060a0526339e2052360005114156100dd57602060046101403734156100b457600080fd5b60043560205181106100c557600080fd5b5033600154146100d457600080fd5b61014051600255005b63c031a180600051141561012857602060046101403734156100fe57600080fd5b600254331461010c57600080fd5b60006101405160e05260c052604060c0205460005260206000f3005b63d5d2c560600051141561016f576040600461014037341561014957600080fd5b600254331461015757600080fd5b6101605160006101405160e05260c052604060c02055005b638da5cb5b600051141561019557341561018857600080fd5b60015460005260206000f3005b63453a2abc60005114156101bb5734156101ae57600080fd5b60025460005260206000f3005b60006000fd"
+}

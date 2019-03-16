@@ -1,0 +1,79 @@
+{
+  "contractName": "Caller",
+  "abi": [
+    {
+      "outputs": [],
+      "inputs": [
+        {
+          "type": "address",
+          "name": "callee_address"
+        }
+      ],
+      "constant": false,
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "name": "storeBytes",
+      "outputs": [],
+      "inputs": [
+        {
+          "type": "bytes32",
+          "name": "key"
+        },
+        {
+          "type": "bytes32",
+          "name": "value"
+        }
+      ],
+      "constant": false,
+      "payable": false,
+      "type": "function",
+      "gas": 2659
+    },
+    {
+      "name": "getBytes",
+      "outputs": [
+        {
+          "type": "bytes32",
+          "name": "out"
+        }
+      ],
+      "inputs": [
+        {
+          "type": "bytes32",
+          "name": "key"
+        }
+      ],
+      "constant": false,
+      "payable": false,
+      "type": "function",
+      "gas": 2061
+    },
+    {
+      "name": "calleeContract",
+      "outputs": [
+        {
+          "type": "address",
+          "name": "out",
+          "unit": "Callee"
+        }
+      ],
+      "inputs": [],
+      "constant": true,
+      "payable": false,
+      "type": "function",
+      "gas": 543
+    }
+  ],
+  "bytecode": "0x600035601c52740100000000000000000000000000000000000000006020526f7fffffffffffffffffffffffffffffff6040527fffffffffffffffffffffffffffffffff8000000000000000000000000000000060605274012a05f1fffffffffffffffffffffffffdabf41c006080527ffffffffffffffffffffffffed5fa0e000000000000000000000000000000000060a052602061028c6101403934156100a757600080fd5b602061028c60c03960c05160205181106100c057600080fd5b506101405160005561027456600035601c52740100000000000000000000000000000000000000006020526f7fffffffffffffffffffffffffffffff6040527fffffffffffffffffffffffffffffffff8000000000000000000000000000000060605274012a05f1fffffffffffffffffffffffffdabf41c006080527ffffffffffffffffffffffffed5fa0e000000000000000000000000000000000060a05263a2e7e315600051141561010457604060046101403734156100b457600080fd5b6000543b6100c157600080fd5b6000543014156100d057600080fd5b60006000604463d5d2c56061018052610140516101a052610160516101c05261019c60006000545af161010257600080fd5b005b63c031a180600051141561017b576020600461014037341561012557600080fd5b6000543b61013257600080fd5b60005430141561014157600080fd5b60206101e0602463c031a18061016052610140516101805261017c6000545afa61016a57600080fd5b6000506101e05160005260206000f3005b63cafdb0be60005114156101a157341561019457600080fd5b60005460005260206000f3005b60006000fd5b6100cd610274036100cd6000396100cd610274036000f3",
+  "deployedBytecode": "0x600035601c52740100000000000000000000000000000000000000006020526f7fffffffffffffffffffffffffffffff6040527fffffffffffffffffffffffffffffffff8000000000000000000000000000000060605274012a05f1fffffffffffffffffffffffffdabf41c006080527ffffffffffffffffffffffffed5fa0e000000000000000000000000000000000060a05263a2e7e315600051141561010457604060046101403734156100b457600080fd5b6000543b6100c157600080fd5b6000543014156100d057600080fd5b60006000604463d5d2c56061018052610140516101a052610160516101c05261019c60006000545af161010257600080fd5b005b63c031a180600051141561017b576020600461014037341561012557600080fd5b6000543b61013257600080fd5b60005430141561014157600080fd5b60206101e0602463c031a18061016052610140516101805261017c6000545afa61016a57600080fd5b6000506101e05160005260206000f3005b63cafdb0be60005114156101a157341561019457600080fd5b60005460005260206000f3005b60006000fd",
+  "sourcePath": "/home/aery/blockchain/advanced_contracts/vyper/contracts/Caller.v.py",
+  "compiler": {
+    "name": "vyper",
+    "version": "0.1.0b9"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-03-16T16:42:19.396Z"
+}
